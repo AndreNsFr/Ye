@@ -1,0 +1,282 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0c2035;
+    
+    
+}
+
+h1{
+    text-align: center;
+    color: rgba(240, 248, 255, 0.822);
+}
+
+.d{
+    font-weight: 600;
+    font-family: Arial;
+    font-size: 70px;
+}
+
+.banner {
+    background-color: none;
+    background-image: url("4198173AZ.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center center ;
+    background-size:  cover ;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+  
+}
+
+.banner img {
+    max-width: 50px;
+    margin: 30px;
+    display: flex; 
+ }
+ 
+
+
+ .banner ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto 0 ;
+
+ }
+
+.fundo1 {
+    background: linear-gradient(135deg, rgba(72, 104, 104, 0.8), rgba(72, 104, 104, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    margin: 30px;
+}
+
+.texto1{
+    margin: 20px;
+    font-weight: 600;
+    font-family: Arial;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.788);
+}
+.imagemk{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.texto1 img {
+    max-width: 100%;
+    display: block;
+    border-radius: 15px;
+}
+
+/*DISCOGRAFIA*/
+
+.disco {
+    
+display: flex;
+flex-wrap: wrap;
+
+}
+
+
+
+.musica{
+    font-weight: 600;
+    font-family: Arial;
+    font-size: 30px;
+    background: linear-gradient(135deg, rgba(72, 104, 104, 0.8), rgba(72, 104, 104, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    margin: 50px auto;
+    width: 600px;
+    max-width: 1550px;
+    
+    
+}
+
+
+
+
+.musica1 {
+    display: flex;
+    margin: auto 0;
+    margin: 50px;
+    flex-direction: column;
+    font-size: 25px;
+    margin-top: 50px;
+    height: 100%;
+    
+   
+}
+
+
+
+
+
+
+
+.musica1 > img{
+    max-width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.musica a {
+    background-color: #32cd32;
+    padding: 20px;
+    padding-right: 70px;
+    padding-left: 70px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    border-radius: 60px;
+   
+    
+}
+
+.musica1 a{
+    display: flex;
+    bottom: 40px;
+}
+
+.musica a:hover{
+
+    background-color: #1e7e1e;
+    transition: 1s;
+
+}
+
+.quadradob{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.247), rgba(255, 255, 255, 0.034));
+    border-radius: 15px;
+    padding: 10px;
+}
+
+/* GALERIA DE FOTOS */
+
+.galeria{
+    padding: 30px;
+}
+
+.flexbox1{
+  
+    background: linear-gradient(135deg, rgba(72, 104, 104, 0.8), rgba(72, 104, 104, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    
+}
+
+.titulogaleria{
+    font-weight: 600;
+    font-family: Arial;
+    font-size: 70px;
+}
+
+.flexbox1 img {
+    width: 300px;
+    height: 200px;
+    
+}
+
+
+
+
+.flexbox1 table td {
+    text-align: center;
+    background: linear-gradient(135deg, rgba(72, 104, 104, 0.8), rgba(72, 104, 104, 0));
+    backdrop-filter: blur(10px);
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    margin: 30px;;
+}
+
+.dentroflex{
+    background: linear-gradient(135deg, rgba(72, 104, 104, 0.8), rgba(72, 104, 104, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    margin: 30px;
+}
+
+
+
+
+
+/* fim galeria de fotos  */
+
+/* lista de shows */
+
+.tabela {
+    background: linear-gradient(135deg, rgba(72, 104, 104, 0.8), rgba(72, 104, 104, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    margin: 30px;
+    
+
+}
+
+.tabela1 {
+    background: linear-gradient(135deg, rgba(72, 104, 104, 0.8), rgba(72, 104, 104, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    margin: 30px;
+    padding-bottom: 40px;
+    
+
+}
+
+
+
+.agenda{
+    font-weight: 600;
+    font-family: Arial;
+    font-size: 70px;
+}
+
+.tabela1 table th{
+    font-weight: 600;
+    font-family: Arial;
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.514)
+}
+
+.tabela1 table td{
+    font-weight: 600;
+    font-family: Arial;
+    font-size: 25px;
+    background-color: rgba(240, 248, 255, 0.301);
+    border-radius: 10px;
+   
+}
+
+.tabela1 td a {
+    text-decoration: none;
+    color: black;
+   
+}
+
+.tabela td:nth-child(3){
+    background-color: rgba(255, 255, 255, 0.822);
+    text-decoration: none;
+    color: black;
+   
+}
+
+
