@@ -3,7 +3,9 @@ body{
     margin: 0;
     padding: 0;
     background-color: #0c2035;
-    
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;;
     
 }
 
@@ -16,7 +18,7 @@ h1{
 
 .d{
     font-weight: 600;
-    font-family: Arial;
+    
     font-size: 70px;
 }
 
@@ -30,9 +32,10 @@ h1{
 
 
 nav{
+    
     display: flex;
     list-style: none;
-    gap: 50px;
+    gap: 35px;
     
 }
 
@@ -80,7 +83,7 @@ nav a {
 .fundo1 {
     background: linear-gradient(135deg, rgba(72, 104, 104, 0.8), rgba(72, 104, 104, 0));
     backdrop-filter: blur(10px);
-    border-radius: 20px;
+    border-radius: 10px;
     border:1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     margin: 30px;
@@ -89,7 +92,7 @@ nav a {
 .texto1{
     margin: 20px;
     font-weight: 600;
-    font-family: Arial;
+    
     font-size: 30px;
     color: rgba(0, 0, 0, 0.788);
 }
@@ -117,7 +120,7 @@ flex-wrap: wrap;
 
 .musica{
     font-weight: 600;
-    font-family: Arial;
+    
     font-size: 30px;
     background: linear-gradient(135deg, rgba(72, 104, 104, 0.8), rgba(72, 104, 104, 0));
     backdrop-filter: blur(10px);
@@ -204,7 +207,7 @@ flex-wrap: wrap;
   
     background: linear-gradient(135deg, rgba(72, 104, 104, 0.8), rgba(72, 104, 104, 0));
     backdrop-filter: blur(10px);
-    border-radius: 20px;
+    border-radius: 10px;
     border:1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     
@@ -212,32 +215,31 @@ flex-wrap: wrap;
 
 .titulogaleria{
     font-weight: 600;
-    font-family: Arial;
+    
     font-size: 70px;
 }
 
+
 .flexbox1 img {
-    width: 300px;
+    width: 250px;
     height: 200px;
     
 }
 
 
-
+.flexbox1 table {
+    padding: 20px;
+}
 
 .flexbox1 table td {
     text-align: center;
-    background: linear-gradient(135deg, rgba(72, 104, 104, 0.8), rgba(72, 104, 104, 0));
-    backdrop-filter: blur(10px);
-    border:1px solid rgba(255, 255, 255, 0.18);
-    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    margin: 30px;;
+    
 }
 
 .dentroflex{
     background: linear-gradient(135deg, rgba(72, 104, 104, 0.8), rgba(72, 104, 104, 0));
     backdrop-filter: blur(10px);
-    border-radius: 20px;
+    border-radius: 3px;
     border:1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     margin: 30px;
@@ -262,7 +264,7 @@ flex-wrap: wrap;
 
 }
 
-.tabela1 {
+.tabela {
     background: linear-gradient(135deg, rgba(72, 104, 104, 0.8), rgba(72, 104, 104, 0));
     backdrop-filter: blur(10px);
     border-radius: 20px;
@@ -278,27 +280,27 @@ flex-wrap: wrap;
 
 .agenda{
     font-weight: 600;
-    font-family: Arial;
+    
     font-size: 70px;
 }
 
-.tabela1 table th{
+.tabela table th{
     font-weight: 600;
-    font-family: Arial;
+    
     font-size: 25px;
     background-color: rgba(255, 255, 255, 0.514)
 }
 
-.tabela1 table td{
+.tabela table td{
     font-weight: 600;
-    font-family: Arial;
+    
     font-size: 25px;
     background-color: rgba(240, 248, 255, 0.301);
     border-radius: 10px;
    
 }
 
-.tabela1 td a {
+.tabela td a {
     text-decoration: none;
     color: black;
    
@@ -312,3 +314,62 @@ flex-wrap: wrap;
 }
 
 
+/* começo dos videos */
+
+
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px; 
+    gap: 20px;
+    background: linear-gradient(135deg, rgba(72, 104, 104, 0.8), rgba(72, 104, 104, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    padding: 20px;
+
+}
+
+
+/* Final dos videos */
+
+/* começo dos contatos */
+
+.contatos {
+    background: linear-gradient(135deg, rgba(72, 104, 104, 0.8), rgba(72, 104, 104, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    margin: 30px;
+}
+
+.contatos table{
+    margin-bottom: 30px ;
+    margin-top: 30px;
+}
+
+
+.contatos table th {
+    font-weight: 600;
+    
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.514)
+}
+
+.contatos table td{
+    font-weight: 600;
+    
+    font-size: 25px;
+    background-color: rgba(240, 248, 255, 0.301);
+    border-radius: 3px;
+   
+}
+
+.eventual {
+    font-weight: 600;
+   
+    font-size: 40px;
+}
