@@ -1,3 +1,4 @@
+
 body{
     margin: 0;
     padding: 0;
@@ -5,6 +6,8 @@ body{
     
     
 }
+
+
 
 h1{
     text-align: center;
@@ -17,6 +20,34 @@ h1{
     font-size: 70px;
 }
 
+.menu{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2a3c57;
+    padding: 20px;
+}
+
+
+nav{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: rgba(240, 248, 255, 0.822);
+    font-weight: 700;
+    background-color: #0c20357a;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
+
 .banner {
     background-color: none;
     background-image: url("4198173AZ.jpg") ;
@@ -26,6 +57,7 @@ h1{
     height: 400px;
     margin: 0 auto;
     display: flex;
+    
   
 }
 
